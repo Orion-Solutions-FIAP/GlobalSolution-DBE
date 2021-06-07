@@ -40,7 +40,7 @@ public class Search {
 		User user = userDao.findByEmail("Kelly.test@gmail.com");
 
 		if (user == null)
-			System.out.println("User not found");
+			System.out.println("User not found!");
 		else
 			System.out.println(user);
 
