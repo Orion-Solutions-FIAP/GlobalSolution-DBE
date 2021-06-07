@@ -39,9 +39,12 @@ public class Search {
 		System.out.println("Find User By E-mail");
 		User user = userDao.findByEmail("Kelly.test@gmail.com");
 
-		if (user == null)
+		if (user == null){
+
 			System.out.println("User not found?");
-		else
+			System.out.println("User not found!");
+
+    }else
 			System.out.println(user);
 
 		System.out.println("*".repeat(60));
