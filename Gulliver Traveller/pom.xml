@@ -22,12 +22,10 @@
 			<version>5.4.12.Final</version>
 		</dependency>
 		<dependency>
-			<groupId>oracle</groupId>
-			<artifactId>jdbc-driver</artifactId>
-			<version>12</version>
-			<scope>system</scope>
-			<systemPath>E:\FIAP\2 - Semestre\Enterprise-Application-Development\ojdbc8.jar</systemPath>
-		</dependency>
+        	<groupId>com.oracle.database.jdbc</groupId>
+        	<artifactId>ojdbc8</artifactId>
+        	<version>21.1.0.0</version>
+      </dependency>
 		<dependency>
 		    <groupId>javax.persistence</groupId>
 		    <artifactId>javax.persistence-api</artifactId>
